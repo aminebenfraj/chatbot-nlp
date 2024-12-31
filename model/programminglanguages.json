@@ -1,0 +1,467 @@
+[{
+  "_id": {
+    "$oid": "67578acc7d8916843b8ebd2d"
+  },
+  "intent": "javascript_intro",
+  "questions": [
+    "What is JavaScript?",
+    "Can you explain JavaScript?",
+    "Define JavaScript",
+    "Tell me about JavaScript",
+    "Give me an overview of JavaScript",
+    "What's JS used for?",
+    "How would you describe JavaScript to a beginner?",
+    "What makes JavaScript special?",
+    "Why should I learn JavaScript?",
+    "What can I build with JavaScript?",
+    "Is JavaScript good for web development?",
+    "What are the main features of JavaScript?",
+    "How does JavaScript work?"
+  ],
+  "response": {
+    "definition": "JavaScript is a high-level, versatile programming language primarily used for creating interactive and dynamic content on websites. It is an essential part of web development alongside HTML and CSS.",
+    "key_features": [
+      "Dynamic typing",
+      "First-class functions",
+      "Object-oriented programming",
+      "Event-driven programming",
+      "Asynchronous capabilities"
+    ],
+    "best_used_for": [
+      "Front-end web development",
+      "Back-end development (Node.js)",
+      "Mobile app development",
+      "Browser games",
+      "Real-time applications",
+      "Single Page Applications (SPAs)"
+    ],
+    "popular_frameworks": [
+      "React",
+      "Vue.js",
+      "Angular",
+      "Express.js",
+      "Next.js"
+    ],
+    "code_example": {
+      "title": "Basic JavaScript Example",
+      "code": "// Function to calculate factorial\nfunction factorial(n) {\n    if (n === 0 || n === 1) return 1;\n    return n * factorial(n - 1);\n}\n\n// Event handling example\ndocument.getElementById('button').addEventListener('click', () => {\n    console.log('Button clicked!');\n});\n\n// Modern ES6+ features\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(num => num * 2);\nconst sum = numbers.reduce((acc, curr) => acc + curr, 0);",
+      "_id": {
+        "$oid": "67578acc7d8916843b8ebd2e"
+      }
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67578acc7d8916843b8ebd2f"
+  },
+  "intent": "python_intro",
+  "questions": [
+    "What is Python?",
+    "Can you explain Python?",
+    "Define Python",
+    "Tell me about Python",
+    "Give me an overview of Python",
+    "What makes Python popular?",
+    "Why use Python?",
+    "What can I do with Python?",
+    "Is Python good for beginners?",
+    "What are Python's main features?",
+    "How is Python different from other languages?",
+    "What's special about Python?",
+    "Why should I learn Python?"
+  ],
+  "response": {
+    "definition": "Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. It emphasizes code readability with its notable use of significant whitespace.",
+    "key_features": [
+      "Simple and readable syntax",
+      "Dynamic typing",
+      "Extensive standard library",
+      "Large ecosystem of packages",
+      "Cross-platform compatibility"
+    ],
+    "best_used_for": [
+      "Data Science and Analysis",
+      "Machine Learning",
+      "Web Development",
+      "Automation and Scripting",
+      "Scientific Computing",
+      "Artificial Intelligence"
+    ],
+    "popular_frameworks": [
+      "Django",
+      "Flask",
+      "NumPy",
+      "Pandas",
+      "TensorFlow"
+    ],
+    "code_example": {
+      "title": "Basic Python Example",
+      "code": "# List comprehension example\nsquares = [x**2 for x in range(10)]\n\n# Function with type hints\ndef calculate_average(numbers: list[float]) -> float:\n    return sum(numbers) / len(numbers)\n\n# Class example\nclass Person:\n    def __init__(self, name: str, age: int):\n        self.name = name\n        self.age = age\n    \n    def greet(self) -> str:\n        return f'Hello, my name is {self.name}!'",
+      "_id": {
+        "$oid": "67578acc7d8916843b8ebd30"
+      }
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67578acc7d8916843b8ebd31"
+  },
+  "intent": "java_intro",
+  "questions": [
+    "What is Java?",
+    "Can you explain Java?",
+    "Define Java",
+    "Tell me about Java",
+    "Give me an overview of Java",
+    "What makes Java popular?",
+    "Why use Java?",
+    "What can I build with Java?",
+    "Is Java still relevant?",
+    "What are Java's main features?",
+    "Why is Java platform-independent?",
+    "What's special about Java?",
+    "Where is Java commonly used?"
+  ],
+  "response": {
+    "definition": "Java is a class-based, object-oriented programming language designed to be platform-independent through its 'Write Once, Run Anywhere' philosophy using the Java Virtual Machine (JVM).",
+    "key_features": [
+      "Platform independence",
+      "Object-oriented",
+      "Strong type system",
+      "Automatic memory management",
+      "Rich standard library"
+    ],
+    "best_used_for": [
+      "Enterprise Applications",
+      "Android Development",
+      "Web Services",
+      "Cloud Applications",
+      "Big Data Processing",
+      "Embedded Systems"
+    ],
+    "popular_frameworks": [
+      "Spring",
+      "Hibernate",
+      "Jakarta EE",
+      "Android SDK",
+      "Apache Struts"
+    ],
+    "code_example": {
+      "title": "Basic Java Example",
+      "code": "public class Example {\n    // Generic method example\n    public <T extends Comparable<T>> T findMax(T[] array) {\n        T max = array[0];\n        for (T element : array) {\n            if (element.compareTo(max) > 0) {\n                max = element;\n            }\n        }\n        return max;\n    }\n\n    // Interface implementation\n    public interface Shape {\n        double calculateArea();\n    }\n\n    public class Circle implements Shape {\n        private double radius;\n\n        public Circle(double radius) {\n            this.radius = radius;\n        }\n\n        @Override\n        public double calculateArea() {\n            return Math.PI * radius * radius;\n        }\n    }\n}",
+      "_id": {
+        "$oid": "67578acc7d8916843b8ebd32"
+      }
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67578acc7d8916843b8ebd33"
+  },
+  "intent": "cpp_intro",
+  "questions": [
+    "What is C++?",
+    "Can you explain C++?",
+    "Define C++",
+    "Tell me about C++",
+    "Give me an overview of C++",
+    "What makes C++ different?",
+    "Why use C++?",
+    "What can I build with C++?",
+    "Is C++ hard to learn?",
+    "What are C++'s main features?",
+    "Why is C++ so fast?",
+    "What's special about C++?",
+    "Where is C++ commonly used?"
+  ],
+  "response": {
+    "definition": "C++ is a powerful, general-purpose programming language that extends C with object-oriented features. It provides high-level abstractions while maintaining low-level hardware control.",
+    "key_features": [
+      "Object-oriented programming",
+      "Low-level memory manipulation",
+      "High performance",
+      "Template metaprogramming",
+      "RAII (Resource Acquisition Is Initialization)"
+    ],
+    "best_used_for": [
+      "Game Development",
+      "System Programming",
+      "Real-time Systems",
+      "High-performance Applications",
+      "Operating Systems",
+      "Embedded Systems"
+    ],
+    "popular_frameworks": [
+      "Qt",
+      "Boost",
+      "Unreal Engine",
+      "OpenCV",
+      "STL (Standard Template Library)"
+    ],
+    "code_example": {
+      "title": "Basic C++ Example",
+      "code": "#include <iostream>\n#include <vector>\n#include <memory>\n\n// Template class example\ntemplate<typename T>\nclass SmartArray {\nprivate:\n    std::vector<T> data;\npublic:\n    void add(T element) {\n        data.push_back(element);\n    }\n    \n    // Smart pointer usage\n    std::unique_ptr<T> getFirst() {\n        if (data.empty()) return nullptr;\n        return std::make_unique<T>(data[0]);\n    }\n};\n\n// Modern C++ features\nclass Example {\npublic:\n    // Lambda expression\n    auto getLambda() {\n        return [](int x) { return x * x; };\n    }\n    \n    // Move semantics\n    std::vector<int> getData() && {\n        return std::move(data);\n    }\nprivate:\n    std::vector<int> data;\n};",
+      "_id": {
+        "$oid": "67578acc7d8916843b8ebd34"
+      }
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67578acc7d8916843b8ebd35"
+  },
+  "intent": "ruby_intro",
+  "questions": [
+    "What is Ruby?",
+    "Can you explain Ruby?",
+    "Define Ruby",
+    "Tell me about Ruby",
+    "Give me an overview of Ruby",
+    "Why is Ruby so popular?",
+    "What can I build with Ruby?",
+    "Is Ruby good for beginners?",
+    "What are Ruby's main features?",
+    "What is Ruby on Rails?",
+    "Why should I learn Ruby?"
+  ],
+  "response": {
+    "definition": "Ruby is a dynamic, open-source programming language with a focus on simplicity and productivity. It is known for its elegant syntax, which is natural to read and easy to write.",
+    "key_features": [
+      "Object-oriented programming",
+      "Dynamic typing",
+      "Garbage collection",
+      "Readable and elegant syntax",
+      "Metaprogramming capabilities"
+    ],
+    "best_used_for": [
+      "Web Development (Ruby on Rails)",
+      "Scripting and automation",
+      "Data Processing",
+      "Prototyping",
+      "DevOps"
+    ],
+    "popular_frameworks": [
+      "Ruby on Rails",
+      "Sinatra",
+      "Hanami",
+      "Padrino"
+    ],
+    "code_example": {
+      "title": "Basic Ruby Example",
+      "code": "# Method to calculate factorial\ndef factorial(n)\n  return 1 if n == 0\n  n * factorial(n - 1)\nend\n\n# Class example\nclass Person\n  def initialize(name)\n    @name = name\n  end\n\n  def greet\n    \"Hello, my name is #{@name}\"\n  end\nend\n\n# Using the class\nperson = Person.new('Alice')\nputs person.greet",
+      "_id": {
+        "$oid": "67578acc7d8916843b8ebd36"
+      }
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67578acc7d8916843b8ebd37"
+  },
+  "intent": "go_intro",
+  "questions": [
+    "What is Go?",
+    "Can you explain Go?",
+    "Define Go",
+    "Tell me about Go",
+    "Give me an overview of Go",
+    "Why should I use Go?",
+    "What can I build with Go?",
+    "Is Go good for concurrency?",
+    "What are Go's main features?",
+    "How is Go different from other languages?",
+    "What's special about Go?",
+    "Why is Go so fast?"
+  ],
+  "response": {
+    "definition": "Go, also known as Golang, is a statically typed, compiled language designed by Google. It is known for its simplicity, efficiency, and strong support for concurrent programming.",
+    "key_features": [
+      "Simplicity and ease of use",
+      "Concurrency support (goroutines and channels)",
+      "Garbage collection",
+      "Strong typing with type inference",
+      "Compiled to machine code for fast performance"
+    ],
+    "best_used_for": [
+      "Backend development",
+      "Cloud services",
+      "Microservices",
+      "Concurrency-heavy applications",
+      "Command-line tools",
+      "Networking applications"
+    ],
+    "popular_frameworks": [
+      "Gin",
+      "Echo",
+      "Beego",
+      "Gorm",
+      "Revel"
+    ],
+    "code_example": {
+      "title": "Basic Go Example",
+      "code": "package main\n\nimport (\n    \"fmt\"\n    \"time\"\n)\n\n// Goroutine example\nfunc printMessage(message string) {\n    fmt.Println(message)\n}\n\nfunc main() {\n    go printMessage(\"Hello from Go!\")\n    time.Sleep(1 * time.Second)\n}\n",
+      "_id": {
+        "$oid": "67578acc7d8916843b8ebd38"
+      }
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67578acc7d8916843b8ebd39"
+  },
+  "intent": "swift_intro",
+  "questions": [
+    "What is Swift?",
+    "Can you explain Swift?",
+    "Define Swift",
+    "Tell me about Swift",
+    "Give me an overview of Swift",
+    "Why is Swift popular?",
+    "What can I build with Swift?",
+    "Is Swift good for iOS development?",
+    "What are Swift's main features?",
+    "How does Swift compare to Objective-C?",
+    "What's special about Swift?",
+    "Why should I learn Swift?"
+  ],
+  "response": {
+    "definition": "Swift is a modern, high-performance programming language developed by Apple for iOS, macOS, watchOS, and tvOS development. It is designed to be easy to learn and powerful.",
+    "key_features": [
+      "Type safety and type inference",
+      "Optionals for handling null values",
+      "Closures and functional programming features",
+      "Automatic memory management (ARC)",
+      "Interoperability with Objective-C"
+    ],
+    "best_used_for": [
+      "iOS and macOS development",
+      "Server-side development",
+      "Mobile applications",
+      "Cross-platform apps with SwiftUI",
+      "Game development with SpriteKit"
+    ],
+    "popular_frameworks": [
+      "UIKit",
+      "SwiftUI",
+      "CoreData",
+      "Combine",
+      "Vapor (for server-side)"
+    ],
+    "code_example": {
+      "title": "Basic Swift Example",
+      "code": "import Foundation\n\n// Function to calculate factorial\nfunc factorial(_ n: Int) -> Int {\n    if n == 0 { return 1 }\n    return n * factorial(n - 1)\n}\n\n// Using closures\nlet numbers = [1, 2, 3, 4, 5]\nlet doubledNumbers = numbers.map { $0 * 2 }\n\n// Optionals\nvar optionalString: String? = \"Hello\"\nif let unwrappedString = optionalString {\n    print(unwrappedString)\n}",
+      "_id": {
+        "$oid": "67578acc7d8916843b8ebd3a"
+      }
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67578acc7d8916843b8ebd3b"
+  },
+  "intent": "rust_intro",
+  "questions": [
+    "What is Rust?",
+    "Can you explain Rust?",
+    "Define Rust",
+    "Tell me about Rust",
+    "Give me an overview of Rust",
+    "Why is Rust so fast?",
+    "What can I build with Rust?",
+    "Is Rust good for system programming?",
+    "What are Rust's main features?",
+    "How is Rust different from C++?",
+    "What's special about Rust?",
+    "Why should I learn Rust?"
+  ],
+  "response": {
+    "definition": "Rust is a systems programming language focused on performance, reliability, and safety, particularly safe concurrency. It offers memory safety without needing a garbage collector.",
+    "key_features": [
+      "Memory safety without garbage collection",
+      "Concurrency without data races",
+      "Zero-cost abstractions",
+      "Pattern matching",
+      "Strong type system with ownership and borrowing"
+    ],
+    "best_used_for": [
+      "System programming",
+      "WebAssembly",
+      "Network programming",
+      "Embedded systems",
+      "Command-line tools",
+      "Game development"
+    ],
+    "popular_frameworks": [
+      "Rocket",
+      "Actix",
+      "Diesel",
+      "Tide",
+      "Yew (for WebAssembly)"
+    ],
+    "code_example": {
+      "title": "Basic Rust Example",
+      "code": "fn factorial(n: u32) -> u32 {\n    if n == 0 { 1 } else { n * factorial(n - 1) }\n}\n\n// Ownership and borrowing example\nfn main() {\n    let s1 = String::from(\"Hello\");\n    let s2 = &s1;\n    println!(\"{}\", s2);\n}\n\n// Pattern matching example\nlet x = Some(42);\nmatch x {\n    Some(i) => println!(\"The value is: {}\", i),\n    None => println!(\"No value\").\n}",
+      "_id": {
+        "$oid": "67578acc7d8916843b8ebd3c"
+      }
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "67578acc7d8916843b8ebd3d"
+  },
+  "intent": "php_intro",
+  "questions": [
+    "What is PHP?",
+    "Can you explain PHP?",
+    "Define PHP",
+    "Tell me about PHP",
+    "Give me an overview of PHP",
+    "Why is PHP so popular for web development?",
+    "What can I build with PHP?",
+    "What are PHP's main features?",
+    "How is PHP different from JavaScript?",
+    "What's special about PHP?",
+    "Why should I learn PHP?"
+  ],
+  "response": {
+    "definition": "PHP is a server-side scripting language primarily used for web development. It is commonly embedded in HTML and supports a wide variety of databases.",
+    "key_features": [
+      "Server-side scripting",
+      "Dynamic content generation",
+      "Integration with databases (MySQL, PostgreSQL)",
+      "Extensive community support",
+      "Cross-platform compatibility"
+    ],
+    "best_used_for": [
+      "Web development (dynamic websites)",
+      "Content Management Systems (CMS)",
+      "E-commerce platforms",
+      "RESTful APIs",
+      "Web applications"
+    ],
+    "popular_frameworks": [
+      "Laravel",
+      "Symfony",
+      "CodeIgniter",
+      "Zend Framework",
+      "CakePHP"
+    ],
+    "code_example": {
+      "title": "Basic PHP Example",
+      "code": "<?php\n// Function to calculate factorial\nfunction factorial($n) {\n    if ($n == 0) return 1;\n    return $n * factorial($n - 1);\n}\n\n// Basic loop\nfor ($i = 0; $i < 5; $i++) {\n    echo \"Number: $i\\n\";\n}\n\n// Associative array\n$user = ['name' => 'Alice', 'age' => 30];\necho \"User name: \" . $user['name'];\n?>",
+      "_id": {
+        "$oid": "67578acc7d8916843b8ebd3e"
+      }
+    }
+  },
+  "__v": 0
+}]

@@ -1,0 +1,159 @@
+{
+  "programming_languages": [
+    {
+      "intent": "javascript_intro",
+      "questions": [
+        "What is JavaScript?",
+        "Can you explain JavaScript?",
+        "Define JavaScript",
+        "Tell me about JavaScript",
+        "Give me an overview of JavaScript",
+        "What's JS used for?",
+        "How would you describe JavaScript to a beginner?",
+        "What makes JavaScript special?",
+        "Why should I learn JavaScript?",
+        "What can I build with JavaScript?",
+        "Is JavaScript good for web development?",
+        "What are the main features of JavaScript?",
+        "How does JavaScript work?"
+      ]
+    },
+    {
+      "intent": "python_intro",
+      "questions": [
+        "What is Python?",
+        "Can you explain Python?",
+        "Define Python",
+        "Tell me about Python",
+        "Give me an overview of Python",
+        "What makes Python popular?",
+        "Why use Python?",
+        "What can I do with Python?",
+        "Is Python good for beginners?",
+        "What are Python's main features?",
+        "How is Python different from other languages?",
+        "What's special about Python?",
+        "Why should I learn Python?"
+      ]
+    },
+    {
+      "intent": "java_intro",
+      "questions": [
+        "What is Java?",
+        "Can you explain Java?",
+        "Define Java",
+        "Tell me about Java",
+        "Give me an overview of Java",
+        "What makes Java popular?",
+        "Why use Java?",
+        "What can I build with Java?",
+        "Is Java still relevant?",
+        "What are Java's main features?",
+        "Why is Java platform-independent?",
+        "What's special about Java?",
+        "Where is Java commonly used?"
+      ]
+    },
+    {
+      "intent": "cpp_intro",
+      "questions": [
+        "What is C++?",
+        "Can you explain C++?",
+        "Define C++",
+        "Tell me about C++",
+        "Give me an overview of C++",
+        "What makes C++ different?",
+        "Why use C++?",
+        "What can I build with C++?",
+        "Is C++ hard to learn?",
+        "What are C++'s main features?",
+        "Why is C++ so fast?",
+        "What's special about C++?",
+        "Where is C++ commonly used?"
+      ]
+    },
+    {
+      "intent": "ruby_intro",
+      "questions": [
+        "What is Ruby?",
+        "Can you explain Ruby?",
+        "Define Ruby",
+        "Tell me about Ruby",
+        "Give me an overview of Ruby",
+        "Why is Ruby so popular?",
+        "What can I build with Ruby?",
+        "Is Ruby good for beginners?",
+        "What are Ruby's main features?",
+        "What is Ruby on Rails?",
+        "Why should I learn Ruby?"
+      ]
+    },
+    {
+      "intent": "go_intro",
+      "questions": [
+        "What is Go?",
+        "Can you explain Go?",
+        "Define Go",
+        "Tell me about Go",
+        "Give me an overview of Go",
+        "Why should I use Go?",
+        "What can I build with Go?",
+        "Is Go good for concurrency?",
+        "What are Go's main features?",
+        "How is Go different from other languages?",
+        "What's special about Go?",
+        "Why is Go so fast?"
+      ]
+    },
+    {
+      "intent": "swift_intro",
+      "questions": [
+        "What is Swift?",
+        "Can you explain Swift?",
+        "Define Swift",
+        "Tell me about Swift",
+        "Give me an overview of Swift",
+        "Why is Swift popular?",
+        "What can I build with Swift?",
+        "Is Swift good for iOS development?",
+        "What are Swift's main features?",
+        "How does Swift compare to Objective-C?",
+        "What's special about Swift?",
+        "Why should I learn Swift?"
+      ]
+    },
+    {
+      "intent": "rust_intro",
+      "questions": [
+        "What is Rust?",
+        "Can you explain Rust?",
+        "Define Rust",
+        "Tell me about Rust",
+        "Give me an overview of Rust",
+        "Why is Rust so fast?",
+        "What can I build with Rust?",
+        "Is Rust good for system programming?",
+        "What are Rust's main features?",
+        "How is Rust different from C++?",
+        "What's special about Rust?",
+        "Why should I learn Rust?"
+      ]
+    },
+    {
+      "intent": "php_intro",
+      "questions": [
+        "What is PHP?",
+        "Can you explain PHP?",
+        "Define PHP",
+        "Tell me about PHP",
+        "Give me an overview of PHP",
+        "Why is PHP so popular for web development?",
+        "What can I build with PHP?",
+        "What are PHP's main features?",
+        "How is PHP different from JavaScript?",
+        "What's special about PHP?",
+        "Why should I learn PHP?"
+      ]
+    }
+  ]
+}
